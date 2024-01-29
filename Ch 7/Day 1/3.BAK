@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
+
 main()
 {
 	char ch;
@@ -8,7 +9,9 @@ main()
 	printf("Enter the character: ");
 	scanf("%c",&ch);
 
-	if(ch = 'a' || ch = 'u' || ch = 'i' || ch = 'o' || ch = 'e')
+
+
+	if(ch == 'a' || ch == 'u' || ch == 'o' || ch == 'i' || ch == 'e')
 	{
 		printf("%c is vowel",ch);
 	}

@@ -11,7 +11,8 @@ main()
 
 
 
-	if(ch == 'a' || ch == 'u' || ch == 'o' || ch == 'i' || ch == 'e')
+	if(ch == 'a' || ch == 'u' || ch == 'o' || ch == 'i' || ch == 'e'||
+	   ch == 'A' || ch == 'U' || ch == 'O' || ch == 'I' || ch == 'E')
 	{
 		printf("%c is vowel",ch);
 	}
