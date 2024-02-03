@@ -1,0 +1,37 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int unit;
+	int bill, charge = 0, total = 0;
+	clrscr();
+
+	printf("Enter electicity units: ");
+	scanf("%d",&unit);
+
+	if(unit <= 50)
+	{
+		unit = (unit * 0.50) ;
+		printf("enter unit: %d",unit );
+	}
+	else if(unit >= 51 || unit <= 150)
+	{
+		unit = 25 + (unit - 50) * 0.75;
+		printf("Enter unit: %d",unit);
+	}
+	else if(unit >= 151 && unit <= 250)
+	{
+		unit = 100 + (unit - 150) * 1.20;
+	       printf("Enter unit: %d",unit);
+	}
+	else if(unit >= 251)
+	{
+		unit = 220 + (unit -250) * 1.50;
+		printf("Enter unit: %d",unit);
+	}
+
+	//unit = total + unit;
+	//bill = unit * 0.2;
+	//printf("\nBill : %d",bill);
+	getch();
+}
