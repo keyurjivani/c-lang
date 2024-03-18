@@ -2,20 +2,23 @@
 #include<conio.h>
 main()
 {
-	int a, b;
+	int a;
 	clrscr();
-
-	printf("Table of 10 \n");
-	printf("10 * 1 = %d \n",10*1);
-	printf("10 * 2 = %d \n",10*2);
-	printf("10 * 3 = %d \n",10*3);
-	printf("10 * 4 = %d \n",10*4);
-	printf("10 * 5 = %d \n",10*5);
-	printf("10 * 6 = %d \n",10*6);
-	printf("10 * 7 = %d \n",10*7);
-	printf("10 * 8 = %d \n",10*8);
-	printf("10 * 9 = %d \n",10*9);
-	printf("10 * 10 = %d \n",10*10);
+	
+	printf("Enter Any Number Of Table : ");
+	scanf("%d",&a);
+	
+	printf("Table of %d \n",a);
+	printf("%d * 1 = %d \n",a,a*1);
+	printf("%d * 2 = %d \n",a,a*2);
+	printf("%d * 3 = %d \n",a,a*3);
+	printf("%d * 4 = %d \n",a,a*4);
+	printf("%d * 5 = %d \n",a,a*5);
+	printf("%d * 6 = %d \n",a,a*6);
+	printf("%d * 7 = %d \n",a,a*7);
+	printf("%d * 8 = %d \n",a,a*8);
+	printf("%d * 9 = %d \n",a,a*9);
+	printf("%d * 10 = %d \n",a,a*10);
 
 	getch();
 }
