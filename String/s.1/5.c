@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int main() {
+int main() 
+{
     char str[100];
 
     
@@ -9,20 +10,27 @@ int main() {
     fgets(str, sizeof(str), stdin);
  
     int i = 0, j = 0;
-    while (str[i] != '\0') {
-        while (str[i] == ' ') {
+    while (str[i] != '\0') 
+	{
+        while (str[i] == ' ') 
+		{
             i++;
         }
-        if (str[i] != '\0') {
-            if (j > 0) {
+        if (str[i] != '\0') 
+		{
+            if (j > 0) 
+			{
                 str[j] = toupper(str[i]);
                 j++;
-            } else {
+            } 
+			else 
+			{
                 str[j] = tolower(str[i]);
                 j++;
             }
             i++;
-            while (str[i] != ' ' && str[i] != '\0') {
+            while (str[i] != ' ' && str[i] != '\0') 
+			{
                 str[j] = tolower(str[i]);
                 i++;
                 j++;
