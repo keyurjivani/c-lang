@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() 
+void main() 
 {
     char password[100];
     int letter = 0, digit = 0, special = 0;
