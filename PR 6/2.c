@@ -6,14 +6,13 @@ int main() {
     int frequency[26] = {0};
 	int i;
     printf("Enter any string: ");
-    scanf("%99[^\n]", str);
+    scanf("%[^\n]", str);
 
-    
     for ( i = 0; str[i] != '\0'; i++) 
 	{
-        if (isalpha(str[i])) 
+        if (str[i]) 
 		{
-            int index = tolower(str[i]) - 'a';
+            int index = str[i] - 'a';
             frequency[index]++;
         }
     }
