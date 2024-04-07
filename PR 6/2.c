@@ -3,7 +3,7 @@
 
 int main() {
     char str[100];
-    int frequency[26] = {0};
+    int frequency[26];
 	int i;
     printf("Enter any string: ");
     scanf("%[^\n]", str);
