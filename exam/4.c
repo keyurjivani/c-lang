@@ -21,7 +21,7 @@ void main()
 	{
 		if(i%2==1)
 		{
-			printf("odd No: %d\n",*a[i]);
+			printf("even No: %d\n",*a[i]);
 		}
 	}
 }
