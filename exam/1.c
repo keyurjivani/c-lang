@@ -29,9 +29,21 @@ void main()
 	
 	for(i=0;i<n;i++)
 	{
-		sum = math+guj+com+eng+sport;
+	printf("Enter name: %s",name);
+	fflush(stdin);
+	printf("Enter Marks of math: %d",math);
+
+	printf("Enter Marks of eng: %d",eng);
+
+	printf("Enter Marks of guj: %d",guj);
+
+	printf("Enter Marks of com: %d",com);
+
+	printf("Enter Marks of sport: %d",sport);
+
 	}
-	printf("")
+	
+
 	
 
 	
